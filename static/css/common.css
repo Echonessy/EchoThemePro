@@ -1,0 +1,18 @@
+html{font-family:"微软雅黑",Arial,sans-serif}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;font-size: .1rem; font-family:'Microsoft YaHei','sans-serif','Arial';}
+fieldset,img{border:0}
+a{text-decoration:none;color:#000;outline:none}
+li{list-style:none;}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+table{border-spacing: 0!important;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+a{-webkit-transition:all 0.05s linear;-moz-transition:all 0.05s linear;-ms-transition:all 0.05s linear;-o-transition:all 0.05s linear}
+.clear:after{  display:block;  content:"clear";  height:0;  clear:both;  overflow:hidden;  visibility:hidden;}
+.clear{zoom:1;}
+i,em{font-style: normal;}
+table {  border-collapse:collapse;  border-spacing:0;  }
+th,td {  padding: 0;}
+.icon-success{width: .5rem;display: block;margin: 0 auto; height: .5rem;background: url("/static/img/suc.png")0 0 no-repeat  ;background-size: 100%;}
+.icon-fail{width: .5rem;display: block;margin: 0 auto; height: .5rem;background: url("/static/img/fail.png")0 0 no-repeat  ;background-size: 100%;}

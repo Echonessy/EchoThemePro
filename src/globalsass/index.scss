@@ -1,0 +1,9 @@
+@charset "utf-8";
+@import "./config";//公共颜色配置
+@import "./transition";//过渡
+@import "./ngprogress";//路由跳转加载条
+@import "./mixin";//mixin混合
+
+
+.vColor{  @include fontColor($font-color-theme)  };
+.vBgColor{  @include bgColor($background-color-theme)  };

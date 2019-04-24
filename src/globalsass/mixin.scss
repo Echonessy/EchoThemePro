@@ -1,0 +1,51 @@
+/*
+globl mixin 混合
+Created by Echonessy on 2019/4/23.
+*/
+
+@charset "utf-8";
+//字体颜色
+@mixin fontColor($color){
+  color:$color;
+  [v-theme="theme"] & {
+    color:$font-color-theme;
+  }
+  [v-theme="theme1"] & {
+    color:$font-color-theme1;
+  }
+  [v-theme="theme2"] & {
+    color:$font-color-theme2;
+  }
+  [v-theme="theme3"] & {
+    color:$font-color-theme3;
+  }
+  [v-theme="theme4"] & {
+    color:$font-color-theme4;
+  }
+  [v-theme="theme5"] & {
+    color:$font-color-theme5;
+  }
+}
+//背景色
+@mixin bgColor($color){
+  background-color:$color;
+  [v-theme="theme"] & {
+    background-color:$background-color-theme;
+  }
+  [v-theme="theme1"] & {
+    background-color:$background-color-theme1;
+  }
+  [v-theme="theme2"] & {
+    background-color:$background-color-theme2;
+  }
+  [v-theme="theme3"] & {
+    background-color:$background-color-theme3;
+  }
+  [v-theme="theme4"] & {
+    background-color:$background-color-theme4;
+  }
+  [v-theme="theme5"] & {
+    background-color:$background-color-theme5;
+  }
+}
+
